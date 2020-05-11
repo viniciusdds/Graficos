@@ -137,7 +137,12 @@ return [
                     'text' => 'Meses',
                     'url' => 'admin/reports/months',
                     'icon' => 'line-chart'
-                ]
+                ],
+                [
+                    'text' => 'Anual',
+                    'url' => 'admin/reports/years',
+                    'icon' => 'bar-chart'
+                ],
             ]
         ],
     ],

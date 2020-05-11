@@ -12,7 +12,7 @@ class OrdersTableSeeder extends Seeder
     {
         $this->user = User::first();
 
-        for($year=(date('Y') - 5); $year < date('Y'); $year++){
+        for($year=(date('Y') - 5); $year <= date('Y'); $year++){
             for ($month=1; $month <= 12; $month++) { 
                 //$data = "{$year}-{$month}-01";
                 $data = Carbon::createFromFormat('Y-m-d H', "{$year}-{$month}-01 22");
